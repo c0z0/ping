@@ -16,5 +16,5 @@ export default function handler(
     path: req.url,
   });
 
-  res.status(200).json({ name: 'ping' });
+  res.status(200).json('pong');
 }
